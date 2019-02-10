@@ -7,4 +7,6 @@ apt update
 apt upgrade
 apt install python
 
+echo "======================"
 echo "Installation complete!"
+echo "======================"
