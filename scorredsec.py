@@ -61,7 +61,7 @@ while loop:
             os.system("pkg install -y python")
             os.system("pkg install -y python2")
             os.system("pkg install -y wget")
-            os.sysetm("pkg install -y nmap")
+            os.system("pkg install -y nmap")
             os.system("pkg install -y hydra ")
             os.system("pkg update -y")
             os.system("pkg install -y git")
