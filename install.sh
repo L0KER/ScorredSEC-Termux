@@ -1,11 +1,13 @@
 clear
 
-echo "ScorredSEC installer"
+echo """
+ ---------------------------
+/ScorredSEC Termux installer\
+-----------------------------
 
-chmod +x /data/data/com.termux/files/home/ScorredSEC-Termux/scorredsec.py
-apt update
-apt upgrade
-apt install python
+chmod +x /data/data/com.termux/files/home/ScorredSEC-Termux/scorredsec.sh
+apt update -y
+apt upgrade -y
 
 echo "======================"
 echo "Installation complete!"
