@@ -35,9 +35,11 @@ Tools:
 20. Routersploit
 21. malwd0wn
 -------------------------
-[!] Auto installing
 ===============================================
 "
+read -n 1 -p "[*] Do you want to install? (y/[a]): " AMSURE 
+[ "$AMSURE" = "y" ] || exit
+echo "" 1>&2
 
 echo "[+] Please wait, insalling..."
 apt update -y
