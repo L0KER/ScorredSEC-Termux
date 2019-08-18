@@ -10,6 +10,14 @@ chmod +x scorredsec.sh
 apt update -y
 apt upgrade -y
 
+clear
+
+echo '''
+ __               __ _ ____               
+(_  _ _ ._.__  _|(_ |_/  | _ ._._ _       
+__)(_(_)| |(/_(_|__)|_\_ |(/_| | | ||_|><   
+'''
+
 echo "======================"
 echo "Installation complete!"
 echo "======================"
