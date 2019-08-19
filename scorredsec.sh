@@ -26,7 +26,7 @@ echo -e """
 \e[1;33m[ 5 ]\e[0m Metasploit
 \e[1;33m[ 6 ]\e[0m santet-online
 \e[1;33m[ 7 ]\e[0m Lazymux
-\e[1;33m[ 8 ]\e[0m Xerxes
+\e[1;33m[ 8 ]\e[0m Slowloris
 \e[1;33m[ 9 ]\e[0m TXTool
 \e[1;33m[ 10 ]\e[0m ReconSpider
 \e[1;33m[ 11 ]\e[0m SocialFish
@@ -99,6 +99,7 @@ cd /data/data/com.termux/files/home && git clone https://github.com/1N3/BruteX
 cd /data/data/com.termux/files/home && git clone https://github.com/laramies/theHarvester
 cd /data/data/com.termux/files/home && git clone https://github.com/1tayH/noisy
 cd /data/data/com.termux/files/home && git clone https://github.com/StackExchange/blackbox
+cd /data/data/com.termux/files/home && git clone https://github.com/gkbrk/slowloris.git
 cd /data/data/com.termux/files/home && git clone https://github.com/Screetsec/TheFatRat
 cd /data/data/com.termux/files/home && git clone https://github.com/byt3bl33d3r/gcat
 cd /data/data/com.termux/files/home && git clone https://github.com/KeepWannabe/Remot3d
@@ -109,9 +110,6 @@ cd /data/data/com.termux/files/home && git clone https://github.com/DarkSecDevel
 cd /data/data/com.termux/files/home && git clone https://github.com/r00t-3xp10it/trojanizer
 cd /data/data/com.termux/files/home && git clone https://github.com/EmpireProject/Empire
 pkg install setoolkit -y
-cd /data/data/com.termux/files/home && git clone https://github.com/zanyarjamal/xerxes
-cd xerxes
-gcc xerxes.c -o xerxes
 cd /data/data/com.termux/files/home && git clone https://github.com/kuburan/txtool.git
 cd /data/data/com.termux/files/home && git clone https://github.com/bhavsec/reconspider
 cd /data/data/com.termux/files/home && git clone https://github.com/UndeadSec/SocialFish.git
