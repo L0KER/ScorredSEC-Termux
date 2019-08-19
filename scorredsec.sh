@@ -35,7 +35,7 @@ echo -e """
 \e[1;33m[ 14 ]\e[0m Th3inspector
 \e[1;33m[ 15 ]\e[0m Blackeye
 \e[1;33m[ 16 ]\e[0m A-Rat
-\e[1;33m[ 17 ]\e[0m DarkSploit
+\e[1;33m[ 17 ]\e[0m PyPhisher
 \e[1;33m[ 18 ]\e[0m IPGeoLocation
 \e[1;33m[ 19 ]\e[0m OpenRAT
 \e[1;33m[ 20 ]\e[0m Routersploit
@@ -118,7 +118,7 @@ cd /data/data/com.termux/files/home && git clone https://github.com/Bhai4You/lin
 cd /data/data/com.termux/files/home && git clone https://github.com/Moham3dRiahi/Th3inspector.git
 cd /data/data/com.termux/files/home && git clone https://github.com/thelinuxchoice/blackeye.git
 cd /data/data/com.termux/files/home && git clone https://github.com/Xi4u7/A-Rat
-cd /data/data/com.termux/files/home && git clone https://github.com/LOoLzeC/DarkSploit.git
+cd /data/data/com.termux/files/home && git clone https://github.com/sneakerhax/PyPhisher
 cd /data/data/com.termux/files/home && git clone https://github.com/maldevel/IPGeoLocation.git
 cd /data/data/com.termux/files/home && git clone https://github.com/L0KER/malwd0wn
 
