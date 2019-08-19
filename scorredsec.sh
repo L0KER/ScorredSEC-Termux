@@ -108,7 +108,7 @@ cd /data/data/com.termux/files/home && git clone https://github.com/Gameye98/Laz
 cd /data/data/com.termux/files/home && git clone https://github.com/DarkSecDevelopers/HiddenEye
 cd /data/data/com.termux/files/home && git clone https://github.com/r00t-3xp10it/trojanizer
 cd /data/data/com.termux/files/home && git clone https://github.com/EmpireProject/Empire
-pkg install setoolkit
+pkg install setoolkit -y
 cd /data/data/com.termux/files/home && git clone https://github.com/zanyarjamal/xerxes
 cd xerxes
 gcc xerxes.c -o xerxes
